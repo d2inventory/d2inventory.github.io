@@ -1,0 +1,18 @@
+<html>
+<head>
+    <script src='./jsOTP.min.js'></script>
+</head>
+
+<body>
+    <div id="out"></div>
+
+
+
+    <script>
+    // totp
+    var totp = new jsOTP.totp();
+    var timeCode = totp.getOtp("BL75FC6L7UNIN4DE");
+    document.getElementById("out").innerHTML = timeCode.toString();
+    </script>
+</body>
+</html>
