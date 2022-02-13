@@ -34,7 +34,8 @@ index.html:
     </html>
 ```  
 4. Get your verification code for Step 1 by visiting your own Github homepage  
-(in my case https://d2inventory.github.io)
+(in my case https://d2inventory.github.io)  
+Be aware that it takes a while for your changes to be published aka F5 F5 F5 F5 :D
 
 5. Finish Step 1 (saving recovery codes etc.)
 6. On every login you can now get your 2FA code from your own Github page.  
