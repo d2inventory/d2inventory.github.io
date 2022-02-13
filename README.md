@@ -42,6 +42,6 @@ So if you have access to Github you can always get the code and don't need no st
 
 
 
-**Security implications:**
+**Security implications:**  
 Well it renders the second factor in 2FA completely worthless as everyone can see your secret, it's public in the index.html
 But we all already knew that and just want an easy user/pass login without no dumb e-mail verification.
