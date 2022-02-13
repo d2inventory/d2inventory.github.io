@@ -4,7 +4,7 @@
     <script>
         const MY_SECRET = "BL75FC6L7UNIN4DE";
         window.setInterval(_ => {
-            document.clear();
+            document.open();
             document.write(new jsOTP.totp().getOtp(MY_SECRET));
         },1000);
     </script>
