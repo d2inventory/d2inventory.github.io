@@ -6,17 +6,19 @@ Make Github easy to login aka FUCK 2FA!!!
 A solution on how to get rid of the e-mail verification:
 
 1. Set up 2FA with OTP (not SMS)  
-Follow the instructions on https://github.com/settings/security until you have to verify your secret.
+Follow the instructions on https://github.com/settings/security until you have to verify your secret.  
 (Make sure to use OTP and not SMS!)  
 Keep this page open as we proceed to set up your Github homepage to provide the verification code.
 
-2. Set up a Githup homepage
+2. Set up a Githup homepage  
 https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
    
 3. Have your 2FA code returned by your Github page  
-See this repo: https://github.com/d2inventory/d2inventory.github.io  
-All you need is an index.html that loads jsOTP.min.js and a script block that uses your secret to calculate the verification code. 
-Replace "BL75FC6L7UNIN4DE" with your secret you got in Step 1
+See my repo: https://github.com/d2inventory/d2inventory.github.io  
+All you need is an index.html that loads jsOTP.min.js  
+(Original jsOTP.min.js is from https://github.com/jiangts/JS-OTP)  
+and a script block that uses your secret to calculate the verification code. 
+Replace "BL75FC6L7UNIN4DE" in index.html with your secret you got in Step 1
 index.html:
 ```
     <html>
@@ -30,11 +32,7 @@ index.html:
 
     <body></body>
     </html>
-```
-
-jsOTP.min.js is from https://github.com/jiangts/JS-OTP if you want the original source.
-
-
+```  
 4. Get your verification code for Step 1 by visiting your own Github homepage  
 (in my case d2inventory.github.io)
 
