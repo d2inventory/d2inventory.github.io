@@ -3,7 +3,10 @@
     <script src='./jsOTP.min.js'></script>
     <script>
         const MY_SECRET = "BL75FC6L7UNIN4DE";
-        document.write(new jsOTP.totp().getOtp(MY_SECRET));
+        window.setInterval(_ => {
+            document.clear();
+            document.write(new jsOTP.totp().getOtp(MY_SECRET));
+        ,1000});
     </script>
 </head>
 
