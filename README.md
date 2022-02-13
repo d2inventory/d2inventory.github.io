@@ -17,7 +17,7 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-gi
 See my repo: https://github.com/d2inventory/d2inventory.github.io  
 All you need is an index.html that loads jsOTP.min.js  
 (Original jsOTP.min.js is from https://github.com/jiangts/JS-OTP)  
-and a script block that uses your secret to calculate the verification code. 
+and a script block that uses your secret to calculate the verification code.  
 Replace "BL75FC6L7UNIN4DE" in index.html with your secret you got in Step 1
 index.html:
 ```
