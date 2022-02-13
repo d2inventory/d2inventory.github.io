@@ -34,7 +34,7 @@ index.html:
     </html>
 ```  
 4. Get your verification code for Step 1 by visiting your own Github homepage  
-(in my case d2inventory.github.io)
+(in my case https://d2inventory.github.io)
 
 5. Finish Step 1 (saving recovery codes etc.)
 6. On every login you can now get your 2FA code from your own Github page.  
@@ -43,5 +43,5 @@ So if you have access to Github you can always get the code and don't need no st
 
 
 **Security implications:**  
-Well it renders the second factor in 2FA completely worthless as everyone can see your secret, it's public in the index.html
+Well it renders the second factor in 2FA completely worthless as everyone can see your secret, it's public in the index.html  
 But we all already knew that and just want an easy user/pass login without no dumb e-mail verification.
